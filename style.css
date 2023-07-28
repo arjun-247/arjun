@@ -1,0 +1,14 @@
+.a{
+    background:red;
+    height:23rem;
+    width:25rem;
+ 
+  }
+  .b{
+    background:yellow;
+    height:23rem;
+    width:25rem;
+    margin-block:120px;
+    padding:10px;
+    border:12px
+  }
