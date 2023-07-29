@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <link rel="stylesheet" href="./frm.css">
+    </head>
+
+
+    <body>
+        <div class="form">
+
+            <form action="" method="post" >
+
+                <fieldset>
+
+                    <legend>data</legend>
+
+                <div class="input">
+                    <label for="username">username</label>
+                    <input type="text" name="usr" id="username" placeholder="username">
+                </div>
+
+                <div class="input">
+                    <label for="email">email id</label>
+                    <input type="text" name="eid" id="email" placeholder="example@gmail.com">
+                </div>
+
+                <div class="input">
+                    <label for="firstname">first name</label>
+                <input type="text" name="fnm" id="firstname" placeholder="first name">
+                </div>
+
+                <div class="input">
+                    <label for="lastname">last name</label>
+                <input type="text" name="lnm" id="lastname" placeholder="last name">
+                </div>
+
+                <label for="g">gender</label>
+                <div class="input">
+                    
+                    <input type="radio" name="radio" id="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="radio" id="female">
+                    <label for="female">female</label>
+                    <input type="radio" name="radio" id="other">
+                    <label for="other">others</label>
+                </div>
+
+                <div class="input">
+                    <label for="password">password</label>
+                    <input type="password" name="pwd" id="password" placeholder="password">                    
+                </div>
+
+                <div class="input">
+                    <label for="confirmpass">confirm password</label>
+                    <input type="password" name="cpwd" id="confirmpass" placeholder="confirm password">
+                </div>
+                
+                <div class="input">
+                    <input type="checkbox" name="chk" id="terms">
+                      <label for="chk">terms&conditions</label>
+                </div>
+
+                <div class="input">
+                    <textarea name="txt" id="txtarea" cols="20" rows="05"></textarea>
+                </div>
+
+                <div class="input">
+                    <select name="" id="">
+                        <option value="value">list1</option>
+                        <option value="">list2</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <input type="text" list="dlist">
+                    <datalist id="dlist">
+                        <option value="opt">fruit</option>
+                        <option value="opt">vegetable</option>
+                        <option value="opt">song</option>
+                        <option value="opt">sun</option>
+                        <option value="opt">moon</option>
+                    </datalist>
+                </div>
+
+                <div class="input">
+                    <button type="button">submit</button>
+                    <input type="submit" name="sbt" value="Submit">
+                    <input type="reset" name="rst" id="">
+                </div>
+
+                </fieldset>
+
+
+            </form>
+        </div>
+    </body>
+</html>
