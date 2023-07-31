@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    background: url("./background.jpg");
+    background-size: cover;
+}
+.nav-bar{
+    height: 4rem;
+    width: 100%;
+    background-color: blue;
+    padding: 1rem;
+}
+.avatar{
+    border-radius: 50%;
+    height: 100%;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    height: 100%;
+    font-size: 1.5rem;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    height: calc(100% - 4rem);
+    width: 100%;
+}
+.left{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding-inline: 1rem;
+    padding-block: 6rem;
+    
+  
+
+}
+.right{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding-inline: 2rem;
+    padding-block: 6rem;
+    text-align: center;
+    pad
+   
+}
+.flower{
+    width: 100%;
+    border-radius: 5rem;
+   
+}
+h1{
+    color:blue ;
+    font-size: 2.5rem;
+}
+p{
+    color: blue;
+    font-size: 1.4rem;
+}
