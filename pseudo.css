@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+p{
+    padding: 2rem;
+    color: white;
+    background-color: blue;
+}
+p::first-line{
+    color: red;
+    font-size: 2rem;
+}
+h1{
+    color: blue;
+}
+h1::first-letter{
+    font-size: 4rem;
+    color: green;
+
+}
+button{
+    position: relative;
+    height: 2rem;
+    width: 8rem;
+    background-color: aqua;
+    border: none;
+    box-shadow: 5px 5px 10px black;
+}
+button::after{
+    content: "2";
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 0;
+    right: 0;
+    transform: translateX(50%) translateY(-50%);
+    border-radius: 50%;
+    transition: 500ms;
+    position: absolute;
+    background-color: red;
+}
+
+button:hover{
+    background-color: green;
+    transform: scale(1.2);
+}
+button:hover::after{
+    background-color: yellow;
+    
+}
+a{
+    display: block;
+
+}
+a:active{
+    background-color: green;
+}
+/*input{
+    height: 20px;
+    width: 20px;
+    transition: 1s;
+    
+}
+/*input:checked{
+    height: 30px;
+    width: 30px;
+    transition: 500ms;
+    transform: translate(10rem);
+
+}*/
+input{
+   
+    display: inline-block;
+}
+#input1:focus{
+    outline: none;
+    border: 2px solid green;
+    background-color: antiquewhite;
+}
+#input2:disabled{
+    background-color: yellow;
+}
+#input3:enabled{
+    background-color: aquamarine;
+}
+#email{
+    outline: none;
+}
+#email:invalid{
+    background-color: red;
+}
+#email:valid{
+    background-color: green;
+}
+#email:required{
+    border: 2px solid green;
+}
+#number:in-range{
+    background-color: green;
+}
+#number:out-of-range{
+    background-color: red;
+}
