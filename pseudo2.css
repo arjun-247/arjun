@@ -1,0 +1,40 @@
+.child:first-child {
+    background-color: yellow;
+}
+
+.child:last-child {
+    background-color: red;
+}
+
+div:first-of-type {
+    background-color: green;
+}
+
+div:last-of-type {
+    background-color: aqua;
+}
+
+div:nth-child(3) {
+    background-color: blueviolet;
+}
+
+.child:nth-of-type(6) {
+    background-color: violet;
+}
+
+div:nth-last-child(4) {
+    background-color: tomato;
+}
+
+div:nth-last-of-type(5) {
+    background-color: royalblue;
+}
+
+.child:not(p) {
+    font-style: italic;
+    font-weight: bold;
+}
+
+:only-child {
+    color: blue;
+}
