@@ -11,7 +11,7 @@
     width: 50px;
     top: 0;
     right: 100%;
-    transform: translate(100%,0);
+    transform: translate(-100%,0);
     background-color: aqua;
     /* animation: mov 1s infinite 0  ; */
     animation-name: mov;
@@ -23,18 +23,25 @@
     0%{
         top: 0;
         right: 100%;
-        transform: translate(0,100%);
+        transform: translate(100%,100%);
     }
     25%{
-        transform: translateX(0%) translateY(700%);
+        top: 100%;
+        right: 100%;
+        transform: translateX(100%) translateY(-100%);
     }
     50%{
-        transform: translateX(0%) translateY(0%);
+        right: 0;
+        top: 100%;
+        transform: translateX(0%) translateY(-100%);
     }
     75%{
+        top: 0;
+        right: 0;
         transform: translateX(0%) translateY(0%);
     }
     100%{
-        transform: translateX(0%) translateY(0%);
+
+        transform: translateX(100%) translateY(0%);
     }
 }
