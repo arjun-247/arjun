@@ -1,0 +1,16 @@
+
+a[target="_blank"]{
+    background-color: yellow;
+}
+div[title|="flowers"]{
+    background-color: aqua;
+}
+a[href^="https"]{
+    background-color: red;
+}
+a[href$=".pdf"]{
+    background-color: violet;
+}
+a[href*="ps"]{
+    font-weight: bold;
+}

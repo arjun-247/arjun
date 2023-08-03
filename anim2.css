@@ -1,0 +1,40 @@
+
+.class1{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border:2px solid black ;
+}
+.class2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 100%;
+    transform: translate(100%,0);
+    background-color: aqua;
+    /* animation: mov 1s infinite 0  ; */
+    animation-name: mov;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in; */
+}
+@keyframes mov{
+    0%{
+        top: 0;
+        right: 100%;
+        transform: translate(0,100%);
+    }
+    25%{
+        transform: translateX(0%) translateY(700%);
+    }
+    50%{
+        transform: translateX(0%) translateY(0%);
+    }
+    75%{
+        transform: translateX(0%) translateY(0%);
+    }
+    100%{
+        transform: translateX(0%) translateY(0%);
+    }
+}

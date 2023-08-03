@@ -1,0 +1,13 @@
+div div{
+    background-color: aqua;
+}
+div>div{
+    font-weight: 700;
+}
+p+div{
+    font-style: italic;
+}
+p~div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
