@@ -1,0 +1,61 @@
+main {
+    height: 100svh;
+    width: 100vw;
+    margin: 0;
+    background: url("./trans.jpeg");
+    background-size: cover;
+}
+.nav-bar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 6rem;
+   padding-left: 2rem;
+    background-color: #111111dd;
+    transition: 0.25s;
+    box-shadow: 15px 0px 100px 100px #111111dd;
+    
+
+}
+.nav-bar:hover{
+    box-shadow: 30px 0px 130px 130px #111111dd;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 1rem;
+}
+.nav-item{
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    transition: 0.3s;
+    padding-block: 1rem;
+    text-align: center;
+}
+.icons:hover > .nav-item::after{
+    color: white;
+    transform: translateX(0%);
+}
+.nav-item::after{
+    content: attr(name);
+    position: absolute;
+    padding-left: 2rem;   
+    color: transparent;
+    text-align: left;
+    transition: 0.5s;
+    width: 16rem;
+    height: 100%;
+    transform: translateX(-25%);
+
+
+
+}
+.nav-item:hover{
+    transform: scale(1.2);
+    font-weight: bolder;
+}
