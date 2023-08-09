@@ -1,9 +1,14 @@
+body{
+    box-sizing: border-box;
+    background: url(./8516101.jpg); 
+    background-size: cover;
+}
 main {
     height: 100svh;
     width: 100vw;
     margin: 0;
-    background: url("./trans.jpeg");
-    background-size: cover;
+  
+    
 }
 .nav-bar{
     position: fixed;
@@ -11,7 +16,7 @@ main {
     bottom: 0;
     height: 100%;
     width: 6rem;
-   padding-left: 2rem;
+    padding-left: 2rem;
     background-color: #111111dd;
     transition: 0.25s;
     box-shadow: 15px 0px 100px 100px #111111dd;
@@ -31,7 +36,7 @@ main {
 .nav-item{
     position: relative;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     transition: 0.3s;
     padding-block: 1rem;
@@ -48,7 +53,7 @@ main {
     color: transparent;
     text-align: left;
     transition: 0.5s;
-    width: 16rem;
+    width: 14rem;
     height: 100%;
     transform: translateX(-25%);
 
@@ -58,4 +63,24 @@ main {
 .nav-item:hover{
     transform: scale(1.2);
     font-weight: bolder;
+}
+.logo{
+    position: absolute;
+    top: 1rem;
+}
+.scrl{
+    
+    position: absolute;
+    
+    
+    height: 100%;
+    width: 200%;
+    z-index: -1;
+    overflow-x: scroll;
+
+    
+}
+.scrl-item{
+    height: 100%;
+    float: left;
 }
