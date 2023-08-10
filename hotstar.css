@@ -1,16 +1,20 @@
-body{
+body {
     box-sizing: border-box;
-    background: url(./8516101.jpg); 
+    background: url(./guardiansofgalaxy.jpg);
     background-size: cover;
+    overflow-x: hidden;
+
 }
+
 main {
-    height: 100svh;
+    height: 100vh;
     width: 100vw;
     margin: 0;
-  
-    
+
+
 }
-.nav-bar{
+
+.nav-bar {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -20,20 +24,22 @@ main {
     background-color: #111111dd;
     transition: 0.25s;
     box-shadow: 15px 0px 100px 100px #111111dd;
-    
+    z-index: 3;
 
 }
-.nav-bar:hover{
+
+.nav-bar:hover {
     box-shadow: 30px 0px 130px 130px #111111dd;
 }
 
-.icons{
+.icons {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     padding-left: 1rem;
 }
-.nav-item{
+
+.nav-item {
     position: relative;
     color: white;
     font-size: 1.5rem;
@@ -42,14 +48,16 @@ main {
     padding-block: 1rem;
     text-align: center;
 }
-.icons:hover > .nav-item::after{
+
+.icons:hover>.nav-item::after {
     color: white;
     transform: translateX(0%);
 }
-.nav-item::after{
+
+.nav-item::after {
     content: attr(name);
     position: absolute;
-    padding-left: 2rem;   
+    padding-left: 2rem;
     color: transparent;
     text-align: left;
     transition: 0.5s;
@@ -60,27 +68,62 @@ main {
 
 
 }
-.nav-item:hover{
+
+.nav-item:hover {
     transform: scale(1.2);
     font-weight: bolder;
 }
-.logo{
+
+.logo {
     position: absolute;
     top: 1rem;
 }
-.scrl{
-    
-    position: absolute;
-    
-    
-    height: 100%;
-    width: 200%;
-    z-index: -1;
-    overflow-x: scroll;
 
+.scrl {
+
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    z-index: 0;
+    overflow-x: scroll;
+    bottom: 20px;
     
+
+   
 }
-.scrl-item{
+
+.scrl-item {
     height: 100%;
     float: left;
+    padding-right: 1rem;
+    
+}
+
+.scrl-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.scroll {
+    position: relative;
+    height: 100%;
+    width: 200vw;
+    
+    margin-left: 10%;
+
+}
+
+.desc {
+    position: absolute;
+    top: 2 0%;
+    left: 10%;
+    width: 30%;
+    font-weight: 500;
+    color: white;
+    
+    
+}
+button:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
 }
