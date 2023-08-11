@@ -1,15 +1,26 @@
 body {
     box-sizing: border-box;
-    background: url(./guardiansofgalaxy.jpg);
-    background-size: cover;
+    /* background: url(./guardiansofgalaxy.jpg);
+    background-size: cover; */
     overflow-x: hidden;
+   
+
 
 }
-
+#myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      
+    }
 main {
+    
     height: 100vh;
     width: 100vw;
     margin: 0;
+    
 
 
 }
@@ -19,11 +30,11 @@ main {
     top: 0;
     bottom: 0;
     height: 100%;
-    width: 6rem;
+    width: 11rem;
     padding-left: 2rem;
     background-color: #111111dd;
     transition: 0.25s;
-    box-shadow: 15px 0px 100px 100px #111111dd;
+    box-shadow: 15px 0px 110px 110px #111111dd;
     z-index: 3;
 
 }
@@ -82,11 +93,12 @@ main {
 .scrl {
 
     position: absolute;
-    height: 30vh;
+    height: 100vh;
     width: 100%;
+    padding-top: 68vh;
     z-index: 0;
     overflow-x: scroll;
-    bottom: 20px;
+    bottom: 0px;
     
 
    
@@ -96,34 +108,53 @@ main {
     height: 100%;
     float: left;
     padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
 }
 
 .scrl-item img {
-    height: 100%;
-    width: 100%;
+    
+    
+   border-radius: 5%;
+    height: 28vh;
+    width: 9vw;
 }
 
 .scroll {
     position: relative;
     height: 100%;
-    width: 200vw;
-    
-    margin-left: 10%;
+    width: 160vw;
+    background: linear-gradient(transparent, #111111dd);
+    margin-left: 11%;
 
 }
+.scroll2 {
+    position: relative;
+    height: 100%;
+    width: 160vw;
+    background-color: #111111dd ;
+    margin-left: 11%;
+}
+
 
 .desc {
     position: absolute;
-    top: 2 0%;
-    left: 10%;
+    top: 20%;
+    left: 12%;
     width: 30%;
     font-weight: 500;
     color: white;
     
     
 }
+
 button:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.scrl-item:hover{
+    
     transition: 0.3s;
     transform: scale(1.1);
 }
