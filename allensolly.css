@@ -1,0 +1,26 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
+main{
+    box-sizing: border-box;
+}
+.marq {
+    box-sizing: border-box;
+    height: 29px;
+    width: 100vw;
+    background-color: navy;
+    padding-block: 0.5rem;
+    font-size: 0.8rem;
+    
+}
+marquee{
+    color: white;
+    font-weight: bold;
+}
+.nav-bar{
+    height: 55px;
+    /* background-color: red; */
+}
