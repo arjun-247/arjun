@@ -1,26 +1,105 @@
-html,body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Inter, Open Sans, Bebas Neue, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, serif, Arial, sans-serif;
 }
-main{
+
+main {
     box-sizing: border-box;
 }
+
 .marq {
     box-sizing: border-box;
     height: 29px;
     width: 100vw;
     background-color: navy;
     padding-block: 0.5rem;
-    font-size: 0.8rem;
-    
+    font-size: 0.7rem;
+
 }
-marquee{
+
+marquee {
     color: white;
     font-weight: bold;
 }
-.nav-bar{
+
+.nav-bar {
+    display: flex;
     height: 55px;
-    /* background-color: red; */
+    background-color: #384248;
+    justify-content: space-between;
+    
+}
+.right-nav {
+    margin-left: 95px;
+    display: flex;
+    
+}
+.rnv{
+    padding-right: 10px;
+}
+.leftnav{
+   
+    
+   margin-right: 95px;
+}
+.lnv{
+    width: 50px;
+    color: white;
+}
+.logo {
+    
+    height: 55px;
+    width: 75px;
+}
+.nav-bar2 {
+    position: relative;
+    display: flex;
+    height: 85px;
+    
+    margin-inline: 100px;
+}
+.logo2{
+    height: 61px;
+    width: 190px;
+    margin-block: 12px;
+}
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 560px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.centeritem{
+    text-decoration: none;
+    color: #0e3051;;
+   
+}
+.centeritem:hover{
+    text-decoration: underline;
+    font-size: 110%;
+    font-weight: 500;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+.third{
+    height: 642px;
+}
+.popupmen{
+    display: none;
+    
+}
+.centeritem1:hover{
+    
+    position: absolute;
+    top: 100%;
 }
