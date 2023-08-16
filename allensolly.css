@@ -30,43 +30,62 @@ marquee {
     height: 55px;
     background-color: #384248;
     justify-content: space-between;
-    
+    box-sizing: border-box;
+
 }
+
 .right-nav {
     margin-left: 95px;
     display: flex;
-    
+
 }
-.rnv{
+
+.rnv {
     padding-right: 10px;
 }
-.leftnav{
-   
+
+.leftnav {
+    padding-top: 10px;
+    font-family: inherit;
+    margin-right: 95px;
     
-   margin-right: 95px;
 }
-.lnv{
+.leftnav a{
+    text-decoration: none;
+}
+
+.lnv {
+    margin-right: 20px;
+    font-size: 12px;
     width: 50px;
     color: white;
 }
+.lnv:hover{
+    color: yellow;
+}
 .logo {
-    
+
     height: 55px;
     width: 75px;
 }
+
 .nav-bar2 {
     position: relative;
     display: flex;
     height: 85px;
-    
-    margin-inline: 100px;
+    justify-content: space-between;
+
 }
-.logo2{
+
+.logo2 {
     height: 61px;
     width: 190px;
     margin-block: 12px;
+    margin-left: 100px;
 }
-.center{
+
+.center {
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -74,15 +93,18 @@ marquee {
     padding: 20px;
     box-sizing: border-box;
     font-size: 14px;
-    
+
 }
-.centeritem{
+
+.centeritem {
     text-decoration: none;
-    color: #0e3051;;
-   
+    color: #0e3051;
+    
+
 }
-.centeritem:hover{
-    text-decoration: underline;
+
+.centeritem:hover {
+    text-decoration: underline red;
     font-size: 110%;
     font-weight: 500;
 }
@@ -91,15 +113,145 @@ marquee {
     display: flex;
     align-items: center;
 }
-.third{
+
+.third {
     height: 642px;
 }
-.popupmen{
+
+.popupmen {
+    position: absolute;
     display: none;
+    height: 577px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+
+
+
+}
+
+.popupwomen {
+    position: absolute;
+    display: none;
+    height: 577px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.popupboys {
+    position: absolute;
+    display: none;
+    height: 577px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.popupgirls {
+    position: absolute;
+    display: none;
+    height: 577px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+
+.popupnew {
+    position: absolute;
+    display: none;
+    height: 350px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    color: #0e3051;
+    font-weight: bold;
+    text-decoration: underline red;
+
+}
+.popupnew img{
+    height: 300px;
+    width: 250px;
+    margin-right: 30px;
+}
+
+
+.popupspecial {
+    position: absolute;
+    display: none;
+    height: 577px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+}
+.popupsale{
+    position: absolute;
+    display: none;
+    height: 350px;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    text-align: left;
+    color: #0e3051;
+    font-weight: bold;
+    text-decoration: underline red;
+}
+.popupsale img{
+    height: 300px;
+    width: 250px;
+    margin-right: 30px;
+}
+
+.p {
+    margin-left: 50px;
+}
+
+.q {
+    margin-left: 50px;
+}
+
+.centeritem1:hover ~ .popupmen {
+    display: flex;
+}
+
+.centeritem2:hover ~ .popupwomen {
+    display: flex;
+}
+
+.centeritem3:hover ~ .popupboys {
+    display: block;
+}
+
+.centeritem4:hover ~ .popupgirls {
+    display: block;
+}
+
+.centeritem5:hover ~ .popupnew {
+    display: flex;
+    justify-content: center;
     
 }
-.centeritem1:hover{
+
+.centeritem6:hover ~ .popupspecial {
+    display: block;
+}
+.centeritem7:hover ~ .popupsale{
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-size: 14px;
+}
+
+.popupmen h6 {
+    color: #0e3051;
     
-    position: absolute;
-    top: 100%;
 }
