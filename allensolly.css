@@ -255,3 +255,59 @@ p {
     color: #0e3051;
     
 }
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-block: 30px;
+    color: #0e3051;
+    font-weight: bold;
+    background-color: white;
+    
+}
+.fourth img{
+    border-radius: 50%;
+    height: 206px;
+    width: 206px;
+    
+}
+
+
+
+@media only screen and (max-width: 750px){
+
+    .leftnav{
+        display: none;
+    }
+    .right-nav{
+        display: flex;
+        
+        justify-content: space-evenly;
+        margin: 0;
+        width: 100%;
+    }
+    .nav-bar2 .logo2{
+        display: none;
+    }
+    .third{
+        height:170px ;
+    }
+    .third img{
+        height: 170px; ;
+    }
+    .right{
+        display: none;
+    }
+    .center{
+        font-size: 12px;
+    }
+    .fourth{
+        height: 170px;
+        font-size: 12px
+    }
+    .fourth img{
+        height: 62px;
+        width: 62px;
+    }
+   
+}
