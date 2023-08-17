@@ -110,6 +110,7 @@ marquee {
 }
 
 .search {
+    margin-right: 50px;
     display: flex;
     align-items: center;
 }
@@ -219,34 +220,41 @@ marquee {
 }
 
 .centeritem1:hover ~ .popupmen {
+    transition: 0.2s;
     display: flex;
 }
 
 .centeritem2:hover ~ .popupwomen {
     display: flex;
+    transition: 0.2s;
 }
 
 .centeritem3:hover ~ .popupboys {
     display: block;
+    transition: 0.2s;
 }
 
 .centeritem4:hover ~ .popupgirls {
     display: block;
+    transition: 0.2s;
 }
 
 .centeritem5:hover ~ .popupnew {
     display: flex;
     justify-content: center;
-    
+    transition: 0.2s;
 }
 
 .centeritem6:hover ~ .popupspecial {
     display: block;
+    transition: 0.2s;
 }
 .centeritem7:hover ~ .popupsale{
     display: flex;
     justify-content: center;
+    transition: 0.2s;
 }
+
 p {
     font-size: 14px;
 }
