@@ -34,33 +34,33 @@ marquee {
 
 }
 
-.right-nav {
+.left-nav {
     margin-left: 95px;
     display: flex;
 
 }
 
-.rnv {
+.l-nv {
     padding-right: 10px;
 }
 
-.leftnav {
+.right-nav {
     padding-top: 10px;
     font-family: inherit;
     margin-right: 95px;
     
 }
-.leftnav a{
+.right-nav a{
     text-decoration: none;
 }
 
-.lnv {
+.r-nv {
     margin-right: 20px;
     font-size: 12px;
     width: 50px;
     color: white;
 }
-.lnv:hover{
+.r-nv:hover{
     color: yellow;
 }
 .logo {
@@ -109,7 +109,7 @@ marquee {
     font-weight: 500;
 }
 
-.right {
+.search {
     display: flex;
     align-items: center;
 }
@@ -271,20 +271,32 @@ p {
     width: 206px;
     
 }
+.main{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
 @media only screen and (max-width: 750px){
-
-    .leftnav{
-        display: none;
+    body html{
+        height: 100%;
     }
     .right-nav{
+        display: none;
+    }
+    .left-nav{
         display: flex;
         
         justify-content: space-evenly;
         margin: 0;
         width: 100%;
+    }
+    .nav-bar{
+        margin: 0;
+    }
+    .nav-bar2{
+        height: 70px;
     }
     .nav-bar2 .logo2{
         display: none;
@@ -295,19 +307,26 @@ p {
     .third img{
         height: 170px; ;
     }
-    .right{
+    .search{
         display: none;
+        
     }
     .center{
         font-size: 12px;
     }
     .fourth{
-        height: 170px;
-        font-size: 12px
+        padding: 0;
+       
+        height: 130px;
+        font-size: 10px
+        
     }
     .fourth img{
         height: 62px;
         width: 62px;
+    }
+    .main{
+        flex-direction: column-reverse;
     }
    
 }
