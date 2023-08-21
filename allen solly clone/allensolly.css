@@ -116,11 +116,12 @@ marquee {
 }
 
 .third {
-    
+    z-index: 0;
     height: 642px;
 }
 
 .popupmen {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 577px;
@@ -134,6 +135,7 @@ marquee {
 }
 
 .popupwomen {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 577px;
@@ -144,6 +146,7 @@ marquee {
 }
 
 .popupboys {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 577px;
@@ -154,6 +157,7 @@ marquee {
 }
 
 .popupgirls {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 577px;
@@ -164,6 +168,7 @@ marquee {
 }
 
 .popupnew {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 350px;
@@ -185,6 +190,7 @@ marquee {
 
 
 .popupspecial {
+    z-index: 1;
     position: absolute;
     display: none;
     height: 577px;
@@ -194,6 +200,7 @@ marquee {
     background-color: white;
 }
 .popupsale{
+    z-index: 1;
     position: absolute;
     display: none;
     height: 350px;
